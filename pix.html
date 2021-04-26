@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pix | piggybank</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg"/>
+    <link rel="icon" href="IMG/icon.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <br>
+    <img src="barra.png">
+    <button class="uk-button uk-button-primary" type="button" uk-toggle="target: #offcanvas-overlay">Menu</button>
+<div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <h3>Temos muitas opções...</h3>
+        <a href="menu.html" style="position:absolute; left:15%">Perfil</a>
+        <br>
+        <a href="extrato.html" style="position:absolute; left:15%">Extrato</a>
+        <br>
+        <a href="pix.html" style="position:absolute; left:15%">Pix</a>
+        <br>
+        <a href="transfer.html" style="position:absolute; left:15%">Transferências</a>
+        <br>
+        <a href="emprestimo.html" style="position:absolute; left:15%">Empréstimo</a>
+        <br>
+        <a href="Recargas.html" style="position:absolute; left:15%">Recargas</a>
+        <br>
+        <h4>Não encontrou o que queria?</h4>
+        <a href="feedback.html" style="position:absolute; left:15%">Reportar um erro</a>
+        <br><br><br><br><br><br><br><br>
+        <a href="index.html" style="position:absolute; left:15%">Sair</a>
+    </div>
+</div>
+    <center>
+        <h3>O pix é num piscar de olhos!</h3>
+        <br>
+        Valor:
+        <input type="text">
+        <br>
+        Data:
+        <input type="date">
+        <br>
+        Mensagem:
+        <br><br>
+        <textarea rows="8" cols="50"></textarea>
+        <br>
+        Tipo:
+        <select name="pix">
+            <option value="default">Selecione</option>
+            <option value="1">CPF</option>
+            <option value="2">Email</option>
+            <option value="3">Número de celular</option>
+          </select>
+          <br>
+          Destinatário:
+          <input type="text">
+        <br><br>
+        <a href="menu.html" class="uk-button uk-button-secondary uk-margin-small-right">Cancelar</a>
+        <a href="enviado.html" class="uk-button uk-button-primary">Enviar</a>
+        <br><br><br><br><br>
+        2021, Iris Software Studio, Inc.
+    </center>
+</body>
+</html>
